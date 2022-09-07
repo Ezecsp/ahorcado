@@ -1,0 +1,43 @@
+body{
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Silkscreen', cursive;
+    background-image: url(../assets/ahorcado.jpg);
+}
+.tablero{
+    text-align: center;
+    background-color:#ffffff;
+}
+.btncaja{
+    text-align: center;
+}
+.btnhome{
+    background-color: black;
+    color:aliceblue;
+    font-size: 40px;
+    margin:10px;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: inherit;
+}
+.btnhome:hover{
+    color:rgb(255, 166, 166);
+    box-shadow: 10px 10px 10px #444444;
+}
+/*PIE*/
+footer{
+    width:100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.logo{
+    width:7.5%;
+    padding:0 0;
+    height: 50px;
+}
+footer p{
+    color:#000000;
+    font-size: 10px;
+    padding: 0 10px 10px;
+}
