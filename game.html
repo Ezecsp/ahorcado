@@ -12,14 +12,15 @@
     <title>Ahorcado</title>
 </head>
 <body>
-    <section class="tablero">
-        <canvas width="800" height="600">
-
-        </canvas>
-    </section>
+    <div class="tablero">
+        <canvas id = "canvas" width="800" height="600"></canvas>
+        <div id="letrasUsadas"></div>
+    </div>
+    <div id="letrasUsadas"></div>
+    <div id="contenedorPalabra"></div>
     <div class="btncaja">
-        <button class="btnhome">Nuevo Juego</button>
-        <button class="btnhome">Renunciar</button>
+        <button id= "btnNuevoJuego" class="btnhome">Nuevo Juego</button>
+        <button id= "btnRenunciar" class="btnhome">Renunciar</button>
     </div>
     <footer>
         <img src="assets/logo.png" alt="Logo" class="logo">
@@ -27,4 +28,5 @@
     </footer>
 </body>
 <script src="../ahorcado/js/script.js" type="text/JavaScript"></script>
+<script src="../ahorcado/js/palabras.js" type="text/JavaScript"></script>
 </html>

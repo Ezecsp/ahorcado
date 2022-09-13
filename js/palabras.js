@@ -1,0 +1,1 @@
+const palabras = ["Hola", "Leon", "Gato", "Perro", "Auto", "Html", "Css", "Javascript"];
